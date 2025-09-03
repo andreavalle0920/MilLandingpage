@@ -1,7 +1,8 @@
 /* Estilos generales */
 :root {
-    /*--primary-color: #1d6392;
-    --secondary-color: #2c3e50;
+    /*--primary-color: #ff85b4ff;
+    padding: 1rem 0;
+    --secondary-color:#ff1356;
     --text-color: #333333;;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;*/
@@ -20,7 +21,7 @@ body {
 
 .header {
     background: var(--secondary-color);
-    color: white;
+    color: rgb(255, 0, 149);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -39,7 +40,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: rgb(250, 113, 113);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -57,7 +58,7 @@ body {
 
 .profile-section {
     padding-top: 150px; /* Espacio para el header fijo */
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(247, 247, 247, 0.959);
 }
 
 .section-title {
@@ -104,11 +105,12 @@ body {
 }
 
 .list li {
-    background-color: white;
+    padding: 1rem;
+    background-color: rgb(247, 133, 133);
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(250, 84, 84, 0.1);
     text-align: left;
 }
 
@@ -141,7 +143,7 @@ body {
 
 .linktree-link {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(253, 174, 174);
     text-decoration: none;
     padding: 1rem 2rem;
     width: 250px;
@@ -166,13 +168,13 @@ body {
 .contact-form textarea {
     padding: 1rem;
     margin-bottom: 1rem;
-    border: 1px solid #ccc;
+    border: 1px solid #ff039e;
     border-radius: 5px;
 }
 
 .submit-button {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(240, 95, 95);
     border: none;
     padding: 1rem;
     border-radius: 5px;
